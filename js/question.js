@@ -1,7 +1,7 @@
 // Array of Objects
 const quiz = [
   {
-    q: "On the scale of 1 to 5, how much are you loving this?",
+    q: "On the scale of 1 to 5, how much are you liking this?",
     options: ["one", "two", "three", "four", "five"],
     answer: 4,
   },
@@ -29,5 +29,15 @@ const quiz = [
     q: "I like you",
     options: ["true", "false"],
     answer: 0,
+  },
+  {
+    q: "Did I have fun on Tuesday evening",
+    options: ["yes", "no"],
+    answer: 0,
+  },
+  {
+    q: "Am I glad that I met you?",
+    options: ["no", "yes"],
+    answer: 1,
   },
 ];

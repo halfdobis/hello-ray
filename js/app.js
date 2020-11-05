@@ -169,6 +169,7 @@ function goToHome() {
   // show the homeBox
   homeBox.classList.remove("hide");
   resetQuiz();
+  window.location.reload();
 }
 
 // #### STARTING POINT ####
