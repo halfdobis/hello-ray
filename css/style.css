@@ -215,14 +215,35 @@ body {
 
 
 
+.swal-title {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 500px;
+    font-family: 'Montserrat',
+        sans-serif;
+}
 
+.swal-text {
+    color: #000000;
+    font-family: 'Montserrat',
+        sans-serif;
+}
 
 .swal-overlay {
-    background-color: rgba(12, 80, 64, 0.45);
+    background-color: #009688;
 }
+
+.swal-modal {
+    border-radius: 10px;
+}
+
 
 .swal-button--confirm {
     background-color: #35ccbd;
+}
+
+.swal-button--confirm:hover {
+    background-color: #009688 !important;
 }
 
 @media(max-width: 767px){

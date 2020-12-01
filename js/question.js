@@ -1,8 +1,14 @@
 // Array of Objects
 const quiz = [
   {
-    q: "On the scale of 1 to 5, how much are you liking this?",
-    options: ["one", "two", "three", "four", "five"],
+    q: "What is my skin colour?",
+    options: [
+      "black skinned",
+      "brown skinned",
+      "white skinned",
+      "dark skinned",
+      "light skinned",
+    ],
     answer: 4,
   },
   {
@@ -21,23 +27,23 @@ const quiz = [
     answer: 1,
   },
   {
-    q: "Do I think that you a trouble maker but, fun?",
-    options: ["no", "yes", "hell, yes"],
+    q: "What is the colour of my eyes?",
+    options: ["black", "blue", "brown"],
     answer: 2,
   },
   {
-    q: "I like you",
+    q: "I like you.",
     options: ["true", "false"],
     answer: 0,
   },
   {
-    q: "Did I have fun on Tuesday evening",
+    q: "I am skinny.",
     options: ["yes", "no"],
-    answer: 0,
+    answer: 1,
   },
   {
-    q: "Am I glad that I met you?",
-    options: ["no", "yes"],
+    q: "What's my favourite colour?",
+    options: ["white", "black", "blue", "red", "grey"],
     answer: 1,
   },
 ];
